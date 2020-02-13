@@ -34,5 +34,9 @@ class SendGridIntegration(models.Model):
     token = models.TextField()
 
 
+class order(models.Model):
+    address = models.CharField(max_length=100)
+
+
 # sendgridapi
 # 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
